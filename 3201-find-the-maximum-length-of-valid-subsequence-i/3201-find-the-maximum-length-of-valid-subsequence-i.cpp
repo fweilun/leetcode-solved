@@ -12,7 +12,7 @@ public:
             ones+=x;
         }
         zeros = nums.size() - ones;
-        
+
         return max(out, max(zeros, ones));
     }
 };
